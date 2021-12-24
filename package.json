@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/batruongq/html-css.git"
+    "url": "git+https://github.com/ronlechiht/HTML-CSS-Practice1.git"
   },
   "keywords": [
     "html",
@@ -18,10 +18,9 @@
   "author": "ba.truong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/batruongq/html-css/issues"
+    "url": "https://github.com/ronlechiht/HTML-CSS-Practice1/issues"
   },
-  "homepage": "https://github.com/batruongq/html-css#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/ronlechiht/HTML-CSS-Practice1#readme",
   "devDependencies": {
     "nano-staged": "0.4.5",
     "parcel": "^2.0.1",
