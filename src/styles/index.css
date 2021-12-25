@@ -165,3 +165,49 @@ header>h1 {
   font-weight: 400;
   margin: 0px 0px 0px 20px;
 }
+
+/* ---------------------------------------------------------------------------*\
+                              #SECTION DOWNLOAD
+\*--------------------------------------------------------------------------- */
+
+.download {
+  width: 1440px;
+  height: 588px;
+  margin-top: 1536px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-image: url(../images/download-background.jpg);
+}
+
+.download h1 {
+  font-size: 44px;
+  font-weight: 400;
+  margin-top: 163px;
+  margin-bottom: 0px;
+}
+
+.download p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 0px;
+}
+
+#download-button {
+  width: 210px;
+  height: 48px;
+  background-color: #ebcb80;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+}
+
+#download-button a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
