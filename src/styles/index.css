@@ -1,16 +1,16 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
-/* ------------------------------------*\
-  #PAGE HEADER
-\*------------------------------------ */
+/* ---------------------------------------------------------------------------*\
+                              #PAGE HEADER
+\*--------------------------------------------------------------------------- */
 
 .page-header {
   width: 1440px;
   height: 768px;
   position: absolute;
-  background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(../images/Background.jpg) no-repeat center center /cover;
+  background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), 
+  url(../images/Background.jpg) no-repeat center center /cover;
 }
 
 .navbar {
@@ -42,24 +42,55 @@ body {
   justify-content: space-between;
 }
 
+#nav>li, #social>li {
+  display: inline;
+}
+
 #nav>li>a {
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
 }
 
+#nav>li>a:hover {
+  color: #50c7c7
+}
+
 .fab {
   color: #ffffff;
 }
 
-#nav>li, #social>li {
-  display: inline;
+.fab:hover {
+  color: #50c7c7;
 }
 
 header>h1 {
-  margin: 163px 410px 509px 410px;
+  margin: 163px 410px 0px 410px;
   text-align: center;
   font-size: 44px;
   color: #ffffff;
   font-weight: 400;
+}
+
+.video {
+  width: 555px;
+  height: 324px;
+  margin: 53px 442px 0px 443px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/video-frame.jpg);
+}
+
+.play-button {
+  width: 72px;
+  height: 72px;
+  background-image: url(../images/Play-bg.png);
+}
+
+.play {
+  width: 18px;
+  height: 24px;
+  margin: 24px 24px 24px 30px;
+  background-image: url(../images/Play.png);
 }
