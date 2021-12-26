@@ -176,6 +176,7 @@ header>h1 {
   margin-top: 1536px;
   display: flex;
   flex-direction: column;
+  position: absolute;
   align-items: center;
   color: #ffffff;
   background-image: url(../images/download-background.jpg);
@@ -210,4 +211,84 @@ header>h1 {
 #download-button a {
   text-decoration: none;
   color: #3c3c3c;
+}
+
+/* ---------------------------------------------------------------------------*\
+                              #SECTION TESTIMONIALS
+\*--------------------------------------------------------------------------- */
+
+.testimonials {
+  width: 1440px;
+  height: 876px;
+  margin-top: 2124px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: #4b4b4b;
+}
+
+.testimonials>h1 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 48px;
+  align-self: center;
+  margin: 71px 0px 0px 0px;
+}
+
+.testimonials .test-table {
+  width: 1139px;
+  height: 681px;
+  align-self: center;
+  margin-top: 28px;
+}
+
+.test-table .table-item {
+  width: 554px;
+  height: 322px;
+  padding: 0;
+}
+
+.test-table .table-item #content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.table-item #text {
+  width: 353px;
+  height: 238px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.table-item #text p {
+  margin: 0px;
+  line-height: 24px;
+}
+
+.table-item #text #p-group {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.table-item #text #job {
+  color: #7d7d7d;
+}
+
+.testimonials #social {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.testimonials .fab {
+  color: #ebcb80;
+  padding-right: 15px;
 }
