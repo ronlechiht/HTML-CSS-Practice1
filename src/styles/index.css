@@ -107,7 +107,7 @@ header>h1 {
 .features {
   width: 1440px;
   height: 768px;
-  margin-top: 768px;
+  top: 768px;
   position: absolute;
   color: #4b4b4b;
 }
@@ -173,7 +173,7 @@ header>h1 {
 .download {
   width: 1440px;
   height: 588px;
-  margin-top: 1536px;
+  top: 1536px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -220,7 +220,7 @@ header>h1 {
 .testimonials {
   width: 1440px;
   height: 876px;
-  margin-top: 2124px;
+  top: 2124px;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -292,3 +292,130 @@ header>h1 {
   color: #ebcb80;
   padding-right: 15px;
 }
+
+/* ---------------------------------------------------------------------------*\
+                              #SECTION PRICING
+\*--------------------------------------------------------------------------- */
+
+.pricing {
+  width: 1440px;
+  height: 680px;
+  top: 3000px;
+  position: absolute;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing>h1 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  margin: 68px 0px 0px 0px;
+  color: #4b4b4b;
+}
+
+.pricing .plan {
+  width: 948px;
+  height: 396px;
+  align-self: center;
+  margin-top: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing .plan .plan-item {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, 
+  rgba(255, 255, 255, 7e-05) 90.88%), #4B4B4B;
+  background-blend-mode: soft-light;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.plan-item h4 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.plan-item .title {
+  font-weight: bold;
+  color: #ebcb80;
+  margin: 40px 0px 0px 0px;
+}
+
+.pricing .plan .plan-item .price {
+  width: 105px;
+  height: 48px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.plan-item .price .dollar {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.plan-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0px;
+}
+
+.plan-item a {
+  text-decoration: none;
+}
+
+.plan-item .button {
+  width: 198px;
+  height: 48px;
+  background-color: #ebcb80;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4b4b4b;
+  margin-bottom: 36px;
+}
+
+.plan-item#item-2 {
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.496575) 0%, 
+  rgba(255, 255, 255, 0.0001) 100%), #ebcb80;
+}
+
+.plan-item#item-2 h4,.plan-item#item-2 .price, .plan-item#item-2 p {
+  color: #4b4b4b;
+}
+
+.plan-item#item-2 .button {
+  color: #ffffff;
+  background-color: #4b4b4b;
+}
+
+.plan-item#item-3 {
+  background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, 
+  rgba(0, 0, 0, 0.401127) 96.5%), #4b4b4b;
+  background-blend-mode: multiply;
+}
+
+
+
