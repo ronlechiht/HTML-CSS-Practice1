@@ -5,11 +5,13 @@ This is used to practice HTML and CSS Skills.
 
 Figma design [link](https://www.figma.com/file/I7cDCVX93Yh1q6UPvNynde/Hofmann-UI-Kit---Page-Templates?node-id=0%3A2)
 
-Git repo [link](https://github.com/batruongq/html-css)
+Plan [link](https://docs.google.com/document/d/1MzRnrhM8RRvQjUye0wLKsLjIzn7Sq0o_HGINVkueTvs/edit?usp=sharing)
+
+Git repo [link](https://github.com/ronlechiht/HTML-CSS-Practice1)
 
 ### How to start
 
-- Clone project : git clone git@github.com:batruongq/html-css.git
+- Clone project : git clone https://github.com/ronlechiht/HTML-CSS-Practice1.git
 
 - Checkout branch : git checkout master
 
