@@ -85,6 +85,62 @@ main {
   opacity: 0.7;
 }
 
+/* ---------------------------------------------------------------------------*\
+                              #SECTION FEATURES
+\*--------------------------------------------------------------------------- */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-title {
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 400;
+  margin: 80px 0px 0px 0px;
+}
+
+.features-subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 32px 0px 0px 0px;
+}
+
+.features-content {
+  display: flex;
+  margin-top: 55px;
+}
+
+.features-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+
+.article-item {
+  display: flex;
+  align-items: center;
+}
+
+.article-content {
+  max-width: 30ch;
+  margin-left: 20px;
+}
+
+.article-title {
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0px 0px 7px 0px;
+}
+
+.article-detail {
+  margin: 0;
+}
+
 
 
 
