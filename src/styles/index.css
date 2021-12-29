@@ -93,6 +93,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 768px;
 }
 
 .features-title {
@@ -140,6 +141,43 @@ main {
 .article-detail {
   margin: 0;
 }
+
+/* ---------------------------------------------------------------------------*\
+                              #SECTION DOWNLOAD
+\*--------------------------------------------------------------------------- */
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 588px;
+  background-image: url(../images/bg-download.jpg);
+  color: #ffffff;
+}
+
+.download-title {
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 400;
+  margin: 163px 0px 0px 0px;
+}
+
+.download-description {
+  max-width: 63ch;
+  text-align: center;
+  margin: 23px 0px 0px 0px;
+}
+
+.btn-download {
+  padding: 15px 50px;
+  background-color: #ebcb80;
+  border-radius: 50px;
+  margin-top: 42px;
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+
 
 
 
