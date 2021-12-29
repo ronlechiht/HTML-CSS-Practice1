@@ -64,7 +64,7 @@ main {
   display: inline;
 }
 
-.header-title {
+.banner-description {
   align-self: center;
   margin: 74px 0px 53px 0px;
   font-size: 44px;
@@ -74,7 +74,7 @@ main {
   max-width: 25ch;
 }
 
-.header-video {
+.banner-video {
   display: grid;
   place-items: center;
   height: 324px;
