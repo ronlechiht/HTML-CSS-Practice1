@@ -44,6 +44,19 @@ a {
   display: inline;
 }
 
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.0555556em;
+}
+
+.btn {
+  background-color: #ebcb80;
+  border-radius: 50px;
+  color: #4b4b4b;
+  text-transform: uppercase;
+  line-height: 19px;
+  letter-spacing: 0.0625em;
+}
 
 /* ---------------------------------------------------------------------------*\
                               #PAGE HEADER
@@ -76,10 +89,8 @@ a {
 }
 
 .nav-item {
-  text-transform: uppercase;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0.0555556em;
   color: #ffffff;
   margin: 0 25px;
 }
@@ -118,12 +129,10 @@ a {
 }
 
 .features-subtitle {
-  text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   margin-top: 32px;
-  letter-spacing: 0.0555556em;
 }
 
 .features-content {
@@ -154,10 +163,8 @@ a {
 }
 
 .article-title {
-  text-transform: uppercase;
   line-height: 30px;
   font-weight: 400;
-  letter-spacing: 0.0555556em;
   margin-bottom: 7px;
 }
 
@@ -166,33 +173,22 @@ a {
 \*--------------------------------------------------------------------------- */
 
 .download {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  min-height: 588px;
+  min-height: 425px;
+  padding-top: 163px;
   background-image: url(../images/bg-download.jpg);
   color: #ffffff;
 }
 
-.download-title {
-  font-size: 44px;
-  line-height: 48px;
-  font-weight: 400;
-}
-
 .download-description {
-  max-width: 63ch;
+  max-width: 62ch;
   text-align: center;
   margin-top: 23px;
 }
 
 .btn-download {
-  padding: 15px 50px;
-  background-color: #ebcb80;
-  border-radius: 50px;
   margin-top: 42px;
-  color: #4b4b4b;
-  text-decoration: none;
+  padding: 15px 58px;
 }
 
 /* ---------------------------------------------------------------------------*\
