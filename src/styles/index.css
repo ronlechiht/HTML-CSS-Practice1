@@ -19,6 +19,7 @@ main {
 h1, h2, h3, h4, p, ul {
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 a {
@@ -89,6 +90,8 @@ a {
 }
 
 .nav-item {
+  text-transform: uppercase;
+  letter-spacing: 0.0555556em;
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
@@ -196,27 +199,22 @@ a {
 \*--------------------------------------------------------------------------- */
 
 .testimonials {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  min-height: 876px;
-}
-
-.testimonials-title {
-  font-size: 44px;
-  line-height: 48px;
-  font-weight: 400;
+  min-height: 804.33px;
+  padding-top: 71.67px
 }
 
 .customers-table {
-  margin-top: 28px;
-  border-spacing: 31px 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 27.87px;
 }
 
 .customer {
   display: flex;
   align-items: flex-start;
-  padding: 37px 38px 48px 41px;
+  margin: 5.975px 15.5px;
+  padding: 36.83px 38px 47.7px 41px;
 }
 
 .box-shadow {
@@ -228,13 +226,14 @@ a {
   margin-left: 28px;
 }
 
-.customer-name, .customer-job {
+.customer-name {
+  text-transform: uppercase;
   line-height: 32px;
-  font-weight: 400;
-  margin: 0;
+  letter-spacing: 0.0625em;
 }
 
 .customer-job {
+  line-height: 18px;
   color: #7d7d7d;
   padding-bottom: 13px;
   border-bottom: 2px solid #f6f6f6;
@@ -242,16 +241,15 @@ a {
 
 .customer-comment {
   max-width: 39ch;
-  margin: 30px 0px 0px 0px;
+  margin-top: 30px;
 }
 
 .customer-social {
-  margin: 24px 0px 0px 0px;
-  padding: 0;
+  margin-top: 23.89px;
 }
 
 .customer-social .social-item {
-  padding-right: 15px;
+  margin-right: 10px;
 }
 
 
