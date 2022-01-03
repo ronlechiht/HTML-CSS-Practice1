@@ -3,6 +3,11 @@
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'Lucida-Grande', sans-serif;
+  src: url(../fonts/LucidaGrandeBold.ttf);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -252,7 +257,104 @@ a {
   margin-right: 10px;
 }
 
+/* ---------------------------------------------------------------------------*\
+                              #SECTION PRICING
+\*--------------------------------------------------------------------------- */
 
+.pricing {
+  align-items: center;
+  min-height: 612px;
+  background-color: #f6f6f6;
+  padding-top: 68px;
+}
+
+.list-plan {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 270px;
+  margin: 0px 34px;
+  padding-top: 40px;
+  padding-bottom: 36px;
+  border-radius: 8px;
+}
+
+.plan-1 {
+  background: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, 
+  rgba(255, 255, 255, 7e-05) 90.88%), #4b4b4b;
+  background-blend-mode: soft-light;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.plan-2 {
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.496575) 0%, 
+  rgba(255, 255, 255, 0.0001) 100%), #ebcb80;
+  background-blend-mode: soft-light;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plan-3 {
+  background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, 
+  rgba(0, 0, 0, 0.401127) 96.5%), #4b4b4b;
+  background-blend-mode: multiply;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.plan-title {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.plan-1 .plan-title, .plan-3 .plan-title {
+  font-family: 'Lucida-Grande', sans-serif;
+  font-weight: bold;
+  color: #ebcb80;
+}
+
+.plan-price {
+  display: flex;
+  margin-top: 30px;
+  font-size: 64px;
+  line-height: 48px;
+  letter-spacing: -0.040625em;
+}
+
+.dollar {
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.plan-period {
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.plan-detail {
+  text-align: center;
+  margin-top: 23px;
+}
+
+.btn-purchase {
+  margin-top: 30px;
+  padding: 15px 50px;
+}
+
+.plan-2 .btn-purchase {
+  color: #ffffff;
+  background-color: #4b4b4b;
+}
 
 
 
