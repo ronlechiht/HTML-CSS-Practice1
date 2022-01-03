@@ -356,5 +356,138 @@ a {
   background-color: #4b4b4b;
 }
 
+/* ---------------------------------------------------------------------------*\
+                              #SECTION PORTFOLIO
+\*--------------------------------------------------------------------------- */
 
+.portfolio {
+  align-items: center;
+  min-height: 1410px;
+  padding-top: 66px;
+}
+
+.portfolio-body {
+  margin-top: 54px;
+}
+
+.portfolio-row {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-img {
+  display: block;
+  min-height: 380px;
+}
+
+.img-info {
+  min-width: 340px;
+  padding: 58px 0px 0px 420px;
+  color: #ffffff;
+  background-image: url(../images/project-card2.jpg);
+}
+
+.img-title, .project-type {
+  text-transform: capitalize;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.025em;
+}
+
+.img-time {
+  margin-top: 5px;
+  margin-left: 2px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.0555556em;
+}
+
+.rectangle-1 {
+  margin-top: 31px;
+  margin-left: 5px;
+  width: 32px;
+  height: 6px;
+  background-color: #ffffff
+}
+
+.img-detail {
+  margin-top: 38px;
+  max-width: 33ch;
+}
+
+.project-info {
+  min-width: 340px;
+  padding: 60px 0px 0px 40px;
+  background-color: #f6f6f6;
+}
+
+.project-author {
+  margin-top: 5px;
+  margin-left: 2px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.rectangle-2 {
+  margin-top: 31px;
+  margin-left: 5px;
+  width: 32px;
+  height: 6px;
+  background-color: #4b4b4b;
+}
+
+.project-title {
+  margin-top: 37px;
+  margin-left: 5px;
+  text-transform: capitalize;
+  font-size: 64px;
+  line-height: 54px;
+  letter-spacing: -0.03125em;
+  max-width: 6ch;
+}
+
+.list-viewer-stats {
+  display: flex;
+  margin-top: 24px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.viewer-stat  {
+  margin: 0px 15px;
+}
+
+.viewer-icon {
+  margin-right: 6px;
+}
+
+.portfolio-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  margin-top: 65px;
+}
+
+.pagination-page {
+  margin: 0px 18px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4b4b4b;
+}
+
+.pagination-page.active {
+  display: grid;
+  place-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #ebcb80;
+}
+
+.pagination-prev, .pagination-next {
+  margin: 0px 42px;
+  padding-top: 5px;
+}
 
