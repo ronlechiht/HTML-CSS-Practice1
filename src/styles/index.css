@@ -395,7 +395,7 @@ a {
   text-transform: capitalize;
   font-size: 32px;
   line-height: 42px;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.03em;
 }
 
 .img-time {
@@ -403,7 +403,7 @@ a {
   margin-left: 2px;
   font-size: 18px;
   line-height: 30px;
-  letter-spacing: 0.0555556em;
+  letter-spacing: 0.06em;
 }
 
 .rectangle-1 {
@@ -446,7 +446,7 @@ a {
   text-transform: capitalize;
   font-size: 64px;
   line-height: 54px;
-  letter-spacing: -0.03125em;
+  letter-spacing: -0.03em;
   max-width: 6ch;
 }
 
