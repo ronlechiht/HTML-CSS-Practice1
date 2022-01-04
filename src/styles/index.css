@@ -38,7 +38,7 @@ a {
   font-size: 44px;
   font-weight: 400;
   line-height: 48px;
-  letter-spacing: -0.0363636em;
+  letter-spacing: -0.04em;
 }
 
 .social-item {
@@ -47,7 +47,7 @@ a {
 
 .uppercase {
   text-transform: uppercase;
-  letter-spacing: 0.0555556em;
+  letter-spacing: 0.06em;
 }
 
 .btn {
@@ -56,7 +56,7 @@ a {
   color: #4b4b4b;
   text-transform: uppercase;
   line-height: 19px;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.06em;
 }
 
 /* ---------------------------------------------------------------------------*\
@@ -91,7 +91,7 @@ a {
 
 .nav-item {
   text-transform: uppercase;
-  letter-spacing: 0.0555556em;
+  letter-spacing: 0.06em;
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
@@ -200,26 +200,30 @@ a {
 
 .testimonials {
   align-items: center;
-  min-height: 804.33px;
-  padding-top: 71.67px
+  min-height: 804px;
+  padding-top: 72px
 }
 
 .customers-table {
   display: flex;
   justify-content: center;
-  margin-top: 27.87px;
+  margin-top: 28px;
 }
 
 .customer {
   display: flex;
   align-items: flex-start;
-  margin: 5.975px 15.5px;
-  padding: 36.83px 38px 47.7px 41px;
+  margin: 6px 16px;
+  padding: 37px 38px 48px 41px;
 }
 
 .box-shadow {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+}
+
+.customer-img {
+  min-width: 96px;
 }
 
 .customer-info {
@@ -229,7 +233,7 @@ a {
 .customer-name {
   text-transform: uppercase;
   line-height: 32px;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.06em;
 }
 
 .customer-job {
@@ -245,7 +249,7 @@ a {
 }
 
 .customer-social {
-  margin-top: 23.89px;
+  margin-top: 24px;
 }
 
 .customer-social .social-item {
