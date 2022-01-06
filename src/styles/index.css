@@ -367,7 +367,7 @@ a {
 .portfolio {
   align-items: center;
   min-height: 1410px;
-  padding-top: 66px;
+  padding: 66px 150px 0px 150px
 }
 
 .portfolio-body {
@@ -379,16 +379,29 @@ a {
   justify-content: center;
 }
 
+.row-item {
+  position: relative;
+}
+
+.item-1, .item-4, .item-5
+.item-6, .item-7 {
+  flex-grow: 1;
+}
+
+.item-2, .item-3 {
+  flex-grow: 2;
+}
+
 .portfolio-img {
   display: block;
   min-height: 380px;
 }
 
 .img-info {
-  min-width: 340px;
-  padding: 58px 0px 0px 420px;
+  position: absolute;
+  left: 420px;
+  top: 58px;
   color: #ffffff;
-  background-image: url(../images/project-card2.jpg);
 }
 
 .img-title, .project-type {
@@ -458,6 +471,8 @@ a {
 }
 
 .viewer-stat  {
+  display: flex;
+  align-items: center;
   margin: 0px 15px;
 }
 
