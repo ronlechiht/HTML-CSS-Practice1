@@ -501,5 +501,7 @@ a {
 
 .team {
   min-height: 590px;
-  background-image: url(../images/bg-team.jpg);
+  background: linear-gradient(0deg, rgba(75, 75, 75, 0.2), 
+  rgba(75, 75, 75, 0.2)), url(../images/bg-team.jpg);
+  background-blend-mode: multiply, normal;
 }
