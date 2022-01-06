@@ -515,8 +515,49 @@ a {
 \*--------------------------------------------------------------------------- */
 
 .team {
-  min-height: 590px;
+  display: flex;
+  min-height: 361px;
+  padding-top: 229px;
+  padding-left: 832px;
   background: linear-gradient(0deg, rgba(75, 75, 75, 0.2), 
   rgba(75, 75, 75, 0.2)), url(../images/bg-team.jpg);
   background-blend-mode: multiply, normal;
+  color: #ffffff;
 }
+
+.teammate-name {
+  text-transform: capitalize;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.025em;
+}
+
+.teammate-position {
+  margin-top: 11px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.teammate-description {
+  margin-top: 22px;
+  max-width: 40ch;
+}
+
+.vertical-dotnav {
+  margin-top: 100px;
+  margin-left: 89px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 7.5px;
+  margin: 6px 0px;
+}
+
+.dot-active {
+  background-color: #ffffff;
+}
+
