@@ -31,6 +31,10 @@ a {
   text-decoration: none;
 }
 
+input {
+  border: none;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -559,5 +563,62 @@ a {
 
 .dot-active {
   background-color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------------*\
+                              #SECTION CONTACT
+\*--------------------------------------------------------------------------- */
+
+.contact {
+  min-height: 797px;
+  padding-top: 67px;
+}
+
+.contact-body {
+  display: flex;
+  align-items: center;
+  padding-left: 147px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.form-input {
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #7d7d7d;
+}
+
+.name-email {
+  display: flex;
+}
+
+.input-name,
+.input-email {
+  max-width: 166px;
+}
+
+.input-email {
+  margin-left: 29px;
+}
+
+.input-message {
+  max-width: 360px;
+  margin-top: 38px;
+}
+
+.btn-submit {
+  align-self: center;
+  margin-top: 58px;
+  padding: 15px 70px;
+}
+
+.contact-info {
+  margin-left: 102px;
+  max-width: 25ch;
 }
 
