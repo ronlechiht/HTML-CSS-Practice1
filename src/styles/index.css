@@ -33,6 +33,7 @@ a {
 
 input {
   border: none;
+  padding: 0;
 }
 
 .flex-col {
@@ -619,6 +620,44 @@ input {
 
 .contact-info {
   margin-left: 102px;
-  max-width: 25ch;
 }
 
+.info-location,
+.info-mail,
+.info-phone {
+  display: flex;
+  max-width: 30ch;
+}
+
+.info-mail {
+  margin-top: 23px;
+}
+
+.info-phone {
+  margin-top: 26px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 19px;
+  margin-right: 12px;
+  padding-top: 5px;
+}
+
+.contact-icon {
+  float: left;
+}
+
+.contact-social {
+  margin-top: 40px;
+}
+
+.contact-social .social-item {
+  margin-right: 30px;
+}
+
+.contact-map {
+  min-height: 400px;
+}
