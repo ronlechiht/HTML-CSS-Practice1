@@ -659,5 +659,100 @@ input {
 }
 
 .contact-map {
+  display: block;
   min-height: 400px;
+}
+
+/* ---------------------------------------------------------------------------*\
+                              #PAGE FOOTER
+\*--------------------------------------------------------------------------- */
+
+.page-footer {
+  display: flex;
+  min-height: 336px;
+  padding-top: 38px;
+  padding-left: 151px;
+  background-color: #4b4b4b;
+  color: #ffffff;
+}
+
+.hofmann-title {
+  padding-left: 12px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ebcb80;
+}
+
+.hofmann-describe {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 27ch;
+}
+
+.subscribe-form {
+  margin-top: 25px;
+}
+
+.subscribe-label {
+  margin-bottom: 19px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.subscribe-input {
+  display: flex;
+  border: 1px solid #7d7d7d;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.subscribe-email {
+  padding-left: 18px;
+  flex-grow: 1;
+  background-color: #4b4b4b;
+}
+
+.subscribe-email::placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.footer-right {
+  margin-left: 313px;
+  padding-top: 44px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.nav-col-2 {
+  margin-left: 121px;
+}
+
+.nav-col-3 {
+  margin-left: 93px;
+}
+
+.footer-nav a {
+  margin: 6px 0px;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.follow-us {
+  margin-top: 41px;
+  margin-left: 194px;
+}
+
+.follow-header {
+  margin-bottom: 23px;
+  font-size: 18px;
+}
+
+.follow-social .social-item {
+  margin-right: 33px;
 }
